@@ -7,7 +7,7 @@ public class dedicnost {
 	Uzivatel petr = new Uzivatel();
 	
 	pavel.vypis("pavel", "novak", 33);
-	petr = pavel;
+	
 
 
 	}
