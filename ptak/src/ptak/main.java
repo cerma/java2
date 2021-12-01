@@ -5,10 +5,17 @@ public class main {
 	public static void main(String[] args) {
 	
 		ptak vlastovka = new ptak();
-		vlastovka.snez(50);
+		System.out.println(vlastovka);
+		vlastovka.snez(20);
+		System.out.println(vlastovka);
 		
-		System.out.println(vlastovka.hlad);
-		System.out.println(vlastovka.vaha);
+		AngryPtak angry = new AngryPtak();
+		System.out.println(angry);
+		angry.provokuj(5);
+		System.out.println(angry);
+		angry.snez(100);
+		angry.provokuj(5);
+		System.out.println(angry);
 
 	}
 
